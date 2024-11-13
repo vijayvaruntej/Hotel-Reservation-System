@@ -1,26 +1,32 @@
-# Hotel Reservation System 🏨
+# Hotel Reservation System
 
-Welcome to the Hotel Reservation System, a Java-based application for managing hotel reservations efficiently. Whether you're running a small inn or a boutique hotel, this system simplifies the reservation process, enhances guest management, and keeps your business organized.
+A Java-based hotel reservation system that allows users to manage room reservations in a MySQL database. This application supports basic CRUD operations (Create, Read, Update, Delete) for handling hotel room reservations and is intended to demonstrate how to interact with a relational database using Java.
 
-## Features 🌟
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- Happy Booking
 
-- **Reserve a Room:** Easily make new reservations by providing guest details, room numbers, and contact information.
+## Features
 
-- **View Reservations:** Get an overview of all current reservations, including guest names, room numbers, contact details, and reservation dates.
+- **Reserve a Room**: Create a new reservation by specifying guest details and room number.
+- **View Reservations**: Display all current reservations, including guest names, room numbers, and contact information.
+- **Get Room Number**: Retrieve the room number for a specific reservation based on guest details.
+- **Update Reservation**: Modify reservation information such as guest name, room number, and contact number.
+- **Delete Reservation**: Remove an existing reservation from the database.
+- **User-Friendly CLI Interface**: Simple text-based interface for navigating reservation options.
 
-- **Edit Reservation Details:** Update guest names, room numbers, and contact information for existing reservations.
+## Technologies Used
 
-- **Delete Reservations:** Remove reservations that are no longer needed.
+- **Java**: Core programming language used for developing the application.
+- **MySQL**: Relational database management system to store and manage reservation data.
+- **JDBC (Java Database Connectivity)**: Interface for connecting Java applications to the MySQL database.
 
-## Getting Started 🚀
 
-### Prerequisites
-
-- Java Development Kit (JDK)
-- MySQL Database
-- MySQL Connector/J (Java)
-
-### Setup
+## Setup
 
 1. Clone this repository to your local machine:
 
@@ -36,15 +42,12 @@ Welcome to the Hotel Reservation System, a Java-based application for managing h
 3. Compile and run the application
 4. Follow the on-screen menu options to use the system.
 
-### Usage 📋
+## Usage
 - Upon running the application, you'll be presented with a menu to choose your desired operation (reservation, viewing, editing, or exiting).
 
 - Follow the prompts to input reservation details, view current reservations, edit existing bookings, and more.
 
-### Contributing 🤝
+## Contribution
 - Contributions are welcome! Feel free to open issues and pull requests for bug fixes, enhancements, or new features.
 
-### Acknowledgments 🙏
-- Special thanks to all contributors and supporters of the Hotel Reservation System project.
-
-### Happy booking! 🌆
+## Happy Booking
