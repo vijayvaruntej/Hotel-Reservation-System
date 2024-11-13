@@ -90,6 +90,7 @@ public class HotelReservationSystem {
                     System.out.println("Reservation failed.");
                 }
             }
+            
         } catch (SQLException e) {
             e.printStackTrace();
         }
